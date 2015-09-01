@@ -1,0 +1,6 @@
+New log file opened at Tue Sep 01 12:08:51 CEST 2015 by 12148@mpcnl0010.local
+Taking next connection to: 63684
+  Address = /10.0.8.10:63684
+This client on port 63685 has uuid 6d59c304-b6d0-4820-a3fd-5642f2e76c14 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-6d59c304-b6d0-4820-a3fd-5642f2e76c14
+Taking next connection to: 63684

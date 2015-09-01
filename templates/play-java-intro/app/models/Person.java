@@ -1,13 +1,15 @@
 package models;
 
 import javax.persistence.*;
+import com.avaje.ebean.Model;
 
 @Entity
-public class Person {
+public class Person extends Model {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-	public String id;
+	  public Long id;
 
     public String name;
+
+    public static Model.Finder<Long, Person> FIND = new Model.Finder<>(Person.class);
 }
